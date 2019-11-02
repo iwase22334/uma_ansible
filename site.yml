@@ -1,0 +1,12 @@
+---
+
+- hosts: ubuntu18 
+  roles: 
+    - devtools-ubuntu18
+    - python-keras
+    - docker-ubuntu18
+
+- hosts: centos7
+  roles: 
+    - docker-centos7
+
